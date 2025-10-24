@@ -8,7 +8,7 @@ interface CompanySectionProps {
 function CompanySection({ formData, updateFormData }: CompanySectionProps) {
   return (
     <div className="form-section">
-      <h2 className="section-title">Client Discovery Brief</h2>
+      <h2 className="section-title">Client discovery brief</h2>
       <p className="section-subtitle">
         Pre-session questionnaire<br />
         <em>(To be completed before our first workshop)</em>
