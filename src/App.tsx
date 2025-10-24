@@ -123,15 +123,13 @@ function App() {
   return (
     <div className="app">
       <div className="form-container">
-        <div className="form-header">
-          <div className="hamburger-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <button className="close-button" onClick={() => window.close()}>×</button>
+        <div className="logo-container">
+          <img 
+            src="https://zdkpicdjltypskmylfvh.supabase.co/storage/v1/object/sign/Assets/Innovation.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMmM0NTgzNy0yOTFmLTQ2ZDAtYTI2OS01YzdmZmI4YzY5YzMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvSW5ub3ZhdGlvbi5wbmciLCJpYXQiOjE3NjEzMTk5NjksImV4cCI6MTc5Mjg1NTk2OX0.HrPMgXKazZl_SJ04smcNJOfclbn_vHAFX-fF96OUYDc" 
+            alt="Logo" 
+            className="logo"
+          />
         </div>
-
         <ProgressIndicator currentStep={currentStep} totalSteps={TOTAL_STEPS} />
 
         <div className="form-content">

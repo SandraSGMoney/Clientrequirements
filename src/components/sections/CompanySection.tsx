@@ -15,7 +15,7 @@ function CompanySection({ formData, updateFormData }: CompanySectionProps) {
       </p>
 
       <h3 className="section-heading">Company and Context</h3>
-      <p className="section-subtitle">Purpose: To understand who you are and where you operate.</p>
+      <p className="section-purpose">Purpose: To understand who you are and where you operate.</p>
 
       <div className="form-group">
         <label htmlFor="companyName">Company name</label>
