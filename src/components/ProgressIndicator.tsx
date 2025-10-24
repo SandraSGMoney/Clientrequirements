@@ -5,15 +5,6 @@ interface ProgressIndicatorProps {
   totalSteps: number;
 }
 
-const stepLabels = [
-  'Company',
-  'Goals',
-  'Opportunities',
-  'Users',
-  'Resources',
-  'Expectations'
-];
-
 function ProgressIndicator({ currentStep, totalSteps }: ProgressIndicatorProps) {
   return (
     <div className="progress-indicator">
